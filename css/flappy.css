@@ -36,10 +36,10 @@ body {
     overflow: hidden;
 }
 .passaro{
-    position: relative;
+    position: absolute;
     width: 60px;
     left: calc(50% - 30px);
-    top: 50%;
+    
 }
 .par-de-barreiras{
     position: absolute;
@@ -76,4 +76,6 @@ body {
     right: 10px;
     font-family: Pixel;
     font-size: 70px;
+    z-index: 100; 
+    /* z index 100 para deixar o progreso na frente de tudo da tela */
 }
